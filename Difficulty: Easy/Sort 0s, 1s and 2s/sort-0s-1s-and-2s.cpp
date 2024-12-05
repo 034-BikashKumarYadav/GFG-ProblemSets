@@ -7,7 +7,6 @@ using namespace std;
 class Solution {
   public:
     void sort012(vector<int>& arr) {
-        
         sort(arr.begin(),arr.end());
     }
 };
@@ -38,6 +37,7 @@ int main() {
         }
 
         cout << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
